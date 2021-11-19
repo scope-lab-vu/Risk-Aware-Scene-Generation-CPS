@@ -31,7 +31,7 @@ Unzip and save the weights to carla-challange/leaderboard/team_code/detector_cod
 To run the scene generation workflow with CARLA, clone this repo.
 
 ```bash
-git clone https://github.com/scope-lab-vu/Risk-Aware-Scene-Generation-CPS
+git clone https://github.com/scope-lab-vu/Risk-Aware-Scene-Generation-CPS.git
 ```
 Then, create a conda environment to run the experiments. 
 
