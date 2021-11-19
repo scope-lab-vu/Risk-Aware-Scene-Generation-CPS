@@ -24,9 +24,9 @@
             },
             "route_id": -1,
             "scores": {
-                "score_composed": 20.02344262503483,
+                "score_composed": 7.2588437832071415,
                 "score_penalty": 1.0,
-                "score_route": 20.02344262503483
+                "score_route": 7.2588437832071415
             },
             "status": "Failed"
         },
@@ -49,15 +49,15 @@
                     "vehicle_blocked": []
                 },
                 "meta": {
-                    "duration_game": 7.9500001184642315,
-                    "duration_system": 39.35529446601868,
+                    "duration_game": 3.6500000543892384,
+                    "duration_system": 19.149904012680054,
                     "route_length": 71.38612775400942
                 },
                 "route_id": "RouteScenario_1",
                 "scores": {
-                    "score_composed": 20.02344262503483,
+                    "score_composed": 7.2588437832071415,
                     "score_penalty": 1.0,
-                    "score_route": 20.02344262503483
+                    "score_route": 7.2588437832071415
                 },
                 "status": "Failed"
             }
@@ -82,8 +82,8 @@
         "carla_camera"
     ],
     "values": [
-        "20.023",
-        "20.023",
+        "7.259",
+        "7.259",
         "1.000",
         "0.000",
         "0.000",
