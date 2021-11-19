@@ -1,0 +1,40 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "outside_route_lanes": [],
+                    "red_light": [],
+                    "route_dev": [],
+                    "route_timeout": [],
+                    "stop_infraction": [],
+                    "vehicle_blocked": []
+                },
+                "meta": {
+                    "duration_game": 0.7000000104308128,
+                    "duration_system": 3.9998977184295654,
+                    "route_length": 71.38612775400942
+                },
+                "route_id": "RouteScenario_1",
+                "scores": {
+                    "score_composed": 0.0,
+                    "score_penalty": 1.0,
+                    "score_route": 0.0
+                },
+                "status": "Failed"
+            }
+        ]
+    },
+    "labels": [],
+    "sensors": [],
+    "values": []
+}
