@@ -12,15 +12,19 @@ High-risk simulation scene generation has recently gained significant interest i
 
 ## Downloads
 
-1. You will need to download CARLA 0.9.9 from [here](https://github.com/carla-simulator/carla/releases/tag/0.9.9). (Our setup works with CARLA 0.9.9 version. Using another version of the simulator will result in a version and API mismatch error.)
+***Manual Downloads***
 
-2. Download the LEC weights from [here](https://vanderbilt365-my.sharepoint.com/:u:/g/personal/shreyas_ramakrishna_vanderbilt_edu/Eaq1ptU-YJJPrqmEYUK_dx8Bad2KqhVQZJkKwngWnuMWRA?e=U3dtyf). The LEC model architecture was taken from [Learning By Cheating](https://github.com/bradyz/2020_CARLA_challenge)
+***Step 1***: Download [CARLA_0.9.9](https://github.com/carla-simulator/carla/releases/tag/0.9.9/) and put it inside the carla_client folder. Please pull CARLA_0.9.9.0 version. If you pull any other version, there will be a mismatch between the CARLA simulation API and the client API. 
 
-Save the model.ckpt file to carla-challange/carla_project folder. 
+***Step 2***: Pull the trained OOD detector weights from [here](https://vanderbilt365-my.sharepoint.com/:f:/g/personal/shreyas_ramakrishna_vanderbilt_edu/EvZqbV90bY1HmSCofd6A1m0BTlqrPBzOF1gy4vDvAt4KUQ?e=LnHlx6). Please download the folder (center-B-1.2-trial), unzip the folder and save it as "ood_detector_weights" into the following path "/carla_client/carla-challange/leaderboard/team_code/detector_code" .
 
-3. Download the trained B-VAE assurance monitor weights from [here](https://vanderbilt365-my.sharepoint.com/:u:/g/personal/shreyas_ramakrishna_vanderbilt_edu/EbB6W8s1XgFJg0Uv762w3v0BuAi7pOrYPZOnbmhHBlEKVQ?e=bOy4Rm)
+***Step 3***: The preitrained LEC is got from [Learning By Cheating](https://github.com/bradyz/2020_CARLA_challenge). Download the weights from [here](https://vanderbilt365-my.sharepoint.com/:u:/g/personal/shreyas_ramakrishna_vanderbilt_edu/ETRBzI7Ai3VJt9zL7yPnJO4Bi5zYvgggreiY2CG68f8s8A?e=nGJIQl)
 
-Unzip and save the weights to carla-challange/leaderboard/team_code/detector_code/ood_detector_weights
+Unzip the weights file and save it as ***model.ckpt*** in the carla-challange/carla_project folder. 
+
+***Automated Downloads (Preferred)***
+
+Enter into this repo and execute this script ```./downloads.sh``` to download these three requirements automatically into the required folders.
 
 ## Setup Virtual Environment
 
