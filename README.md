@@ -82,9 +82,9 @@ The goal of this work is to test different samplers for sequential scene generat
 1. **Manual Sampler** - A sampler in which the user can manually specify the values for the scene variables.
 2. **Random Sampler** - A sampler in which the scene variables are sampled uniformly at random from their respective distributions.
 3. **Grid Sampler** - A sampler that exhaustively samples all the combinations of the scene variables in a given grid.
-4. **Halton Samppler** - A pseudo-random sampler that samples the search space using co-prime as its bases.
-5. **Random Neighborhood Search** - The sampler executes the sequenctial-search strategy discussed in the paper.
-6. **Guided Bayesian Optimization** - The sampler extends the conventional Bayesian Optimization sampler with sampling rules and uses them for sampling the high-risk scenes. 
+4. **Halton Sampler** - A pseudo-random sampler that samples the search space using co-prime as its bases.
+5. **Random Neighborhood Search Sampler** - The sampler executes the sequenctial-search strategy discussed in the paper.
+6. **Guided Bayesian Optimization Sampler** - The sampler extends the conventional Bayesian Optimization sampler with sampling rules and uses them for sampling the high-risk scenes. 
 
 
 ## References
