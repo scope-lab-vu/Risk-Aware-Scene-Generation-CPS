@@ -35,7 +35,7 @@ To run the scene generation workflow with CARLA, clone this repo.
 ```bash
 git clone https://github.com/scope-lab-vu/Risk-Aware-Scene-Generation-CPS.git
 ```
-Then, create a conda environment to run the experiments. 
+Then, create a conda environment to run the experiments. If you do not have conda install it from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
 ```
 To run this setup first create a virtual environment with python 3.7
