@@ -14,8 +14,8 @@ High-risk simulation scene generation has recently gained significant interest i
 
 1. [Downloads](#Downloads)
 2. [Setup](#Setup)
-3. [Execution](#Running the Carla setup)
-4. [Samplers](#Scene Generation & Samplers)
+3. [Execution](#Running-the-Carla-setup)
+4. [Samplers](#Scene-Generation-&-Samplers)
 
 ## Downloads
 
