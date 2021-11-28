@@ -12,6 +12,8 @@ High-risk simulation scene generation has recently gained significant interest i
 
 ## Downloads
 
+The following files need to be downloaded and they can be got using one of the follwings methods. 
+
 ***Manual Downloads***
 
 ***Step 1***: Download [CARLA_0.9.9](https://github.com/carla-simulator/carla/releases/tag/0.9.9/) and put it inside the carla_client folder. Please pull CARLA_0.9.9.0 version. If you pull any other version, there will be a mismatch between the CARLA simulation API and the client API. 
@@ -53,7 +55,7 @@ mkdir routes               #stores the scene information.
 mkdir simulation-data      #stores the sensor information
 mkdir images               #stores images if chosen by the user
 ```
-Alternately, enter into this repo and execute this script ```./make_volume_folders.sh``` to set up these empty folders.
+Alternately, enter into this repo and execute this script ```./make_volume_folders.sh``` to set up these empty folders. To clean the content of these folders you can use ```./clean_folders.sh``` script.
 
 ***Launch Simulation & Sampler***
 
