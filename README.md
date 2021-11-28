@@ -18,7 +18,7 @@ High-risk simulation scene generation has recently gained significant interest i
 4. [Samplers](#Scene-Generation-&-Samplers)
 5. [Acknowledgements](#Acknowledgements)
 
-## Downloads
+# Downloads
 
 The following files need to be downloaded and they can be got using one of the listed methods. 
 
@@ -36,7 +36,7 @@ Unzip the weights file and save it as ***model.ckpt*** in the carla-challange/ca
 
 Enter into this repo and execute this script ```./downloads.sh``` to download these three requirements automatically into the required folders.
 
-## Setup
+# Setup
 
 To run the scene generation workflow with CARLA, clone this repo.
 
