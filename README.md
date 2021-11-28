@@ -12,7 +12,7 @@ High-risk simulation scene generation has recently gained significant interest i
 
 ## Downloads
 
-The following files need to be downloaded and they can be got using one of the follwings methods. 
+The following files need to be downloaded and they can be got using one of the listed methods. 
 
 ***Manual Downloads***
 
