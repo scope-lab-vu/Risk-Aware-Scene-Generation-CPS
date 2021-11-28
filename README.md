@@ -82,10 +82,10 @@ This script launches both the simulator and the carla client. The simulation dat
 
 This should start running the carla setup with the default random sampler. Different samplers and scene variables can be seected from [scene_description.yml](carla-challange/sdl/scene/scene_description.yml)
 
-## Scene Generation & Samplers
+# Scene Generation & Samplers
 We use a scenario description DSML written in [textX](https://textx.github.io/textX/stable/) to generate different temporal scene parameters (weather parameters, time-of-day,traffic density), spatial scene parameters (road segments) and agent sensor faults. These variables and samplers can be selected using the scene specification file ***carla-challange/sdl/scene/scene_description.yml***
 
-# Samplers
+***Samplers***
 
 The goal of this work is to test different samplers for sequential scene generation. We have integrated and the user can select from the following samplers.
 
@@ -97,7 +97,7 @@ The goal of this work is to test different samplers for sequential scene generat
 6. **Guided Bayesian Optimization Sampler** - The sampler extends the conventional Bayesian Optimization sampler with sampling rules and uses them for sampling the high-risk scenes. 
 
 
-## Acknowledgements
+# Acknowledgements
 
 The experiments in this work is based on code from these repositories.
 
