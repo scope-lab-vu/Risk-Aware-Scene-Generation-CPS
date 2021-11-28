@@ -18,7 +18,7 @@ High-risk simulation scene generation has recently gained significant interest i
 4. [Samplers](#Scene-Generation-&-Samplers)
 5. [Acknowledgements](#Acknowledgements)
 
-# Downloads
+## Downloads
 
 The following files need to be downloaded and they can be got using one of the listed methods. 
 
@@ -36,7 +36,7 @@ Unzip the weights file and save it as ***model.ckpt*** in the carla-challange/ca
 
 Enter into this repo and execute this script ```./downloads.sh``` to download these three requirements automatically into the required folders.
 
-# Setup
+## Setup
 
 To run the scene generation workflow with CARLA, clone this repo.
 
@@ -52,7 +52,7 @@ conda activate carla-sampling
 python3 -m pip install -r requirements.txt
 ```
 
-# Running the Carla setup 
+## Running the Carla setup 
 
 ***Create Folders for Docker Volumes***
 
@@ -82,7 +82,7 @@ This script launches both the simulator and the carla client. The simulation dat
 
 This should start running the carla setup with the default random sampler. Different samplers and scene variables can be seected from [scene_description.yml](carla-challange/sdl/scene/scene_description.yml)
 
-# Scene Generation & Samplers
+## Scene Generation & Samplers
 We use a scenario description DSML written in [textX](https://textx.github.io/textX/stable/) to generate different temporal scene parameters (weather parameters, time-of-day,traffic density), spatial scene parameters (road segments) and agent sensor faults. These variables and samplers can be selected using the scene specification file ***carla-challange/sdl/scene/scene_description.yml***
 
 ***Samplers***
@@ -97,7 +97,7 @@ The goal of this work is to test different samplers for sequential scene generat
 6. **Guided Bayesian Optimization Sampler** - The sampler extends the conventional Bayesian Optimization sampler with sampling rules and uses them for sampling the high-risk scenes. 
 
 
-# Acknowledgements
+## Acknowledgements
 
 The experiments in this work is based on code from these repositories.
 
