@@ -89,9 +89,9 @@ The goal of this work is to test different samplers for sequential scene generat
 6. **Guided Bayesian Optimization Sampler** - The sampler extends the conventional Bayesian Optimization sampler with sampling rules and uses them for sampling the high-risk scenes. 
 
 
-## References
+## Acknowledgements
 
-The experiments in this work are built using these two works.
+The experiments in this work is based on code from these repositories.
 
 
 1. ReSonAte: A Runtime Risk Assessment Framework for Autonomous Systems [paper](https://arxiv.org/abs/2102.09419) - This is our previous work which introduced the ReSonAte risk estimation framework. We use this setup for computing the ReSonAte score in this work. [GitHub](https://github.com/scope-lab-vu/Resonate)
